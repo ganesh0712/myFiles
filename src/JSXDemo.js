@@ -3,7 +3,7 @@ import Superhero from "./Superhero";
 
 
 class JSXDemo extends Component
-{
+{ 
     Display()
     {
         const stud_name= [
@@ -11,7 +11,8 @@ class JSXDemo extends Component
             {id :2, s_name: 'Ashish'}
         ];
 
-        return(
+        return( 
+            
             <h1> Student id : {this.id} </h1>
         )
     }
